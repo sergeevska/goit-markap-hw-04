@@ -184,6 +184,8 @@ color: #404bbf;
 }
 .title-section{
 background-color: var(--main-text-color);
+max-width: 1440px;
+
 }
 .title {
     color: var(--main-bg-color);
@@ -236,6 +238,8 @@ background-color: var(--main-text-color);
     background-color: rgba(244, 244, 253, 1);
     padding: 24px 100px;
     border-radius: 4px;
+    align-items: center;
+    margin-bottom: 8px; 
 }
 
 .work-section {
