@@ -336,6 +336,7 @@ max-width: 1440px;
 .ul-icons {
     display: flex;
     gap:24px;
+    justify-content: center;
 }
 .li-icons {
     background-color: #4D5AE5;
