@@ -506,7 +506,9 @@ max-width: 1440px;
     background-color: #31d0aa; 
 }
 .svg-footer {
+    fill: #f4f4fd ;
 }
+
 
 /* Portfolio styles */
 .nav-list:hover{
