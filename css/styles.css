@@ -74,7 +74,6 @@ body {
     background-size:cover;
     max-width: 1440рх;
     background-position: center;
-    
 
 }
 .ben-container {
@@ -316,8 +315,9 @@ max-width: 1440px;
 
 }
 .first-worker {
-    padding: 32px 16px;
+    padding: 32px 0;
 }
+
 .images {
 }
 .names {
