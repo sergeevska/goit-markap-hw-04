@@ -141,11 +141,24 @@ h2 {
     line-height: 24px;
     letter-spacing: 0.02em;
     padding: 24px 0;
-    position: relative;     
+    position: relative;
+    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);     
 }
 .nav-list:first-child {
     color: #404bbf;     
    }
+   
+.nav-list.active::after {
+    content:'';
+    display: block;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px; 
+  }
 
 .adress-list {
     color: var(--main-text-color);
@@ -173,6 +186,9 @@ color: #404bbf;
   overflow: hidden;
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
+}
+.item-adress{
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .benefits{
     padding: 120px 0;
